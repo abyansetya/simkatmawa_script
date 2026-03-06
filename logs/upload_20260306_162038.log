@@ -1,0 +1,77 @@
+2026-03-06 16:20:38,412 [INFO] ==========================================================
+2026-03-06 16:20:38,413 [INFO]   SIMKATMAWA - Upload Sertifikasi Otomatis
+2026-03-06 16:20:38,413 [INFO]   Waktu mulai: 2026-03-06 16:20:38
+2026-03-06 16:20:38,413 [INFO] ==========================================================
+2026-03-06 16:20:38,413 [INFO] 
+2026-03-06 16:20:38,413 [INFO] 📌 STEP 1: Membaca file CSV...
+2026-03-06 16:20:38,421 [INFO] 📄 Berhasil membaca 4 baris dari CSV
+2026-03-06 16:20:38,425 [INFO] 
+2026-03-06 16:20:38,425 [INFO] 📌 STEP 2: Mengelompokkan data sertifikasi...
+2026-03-06 16:20:38,427 [INFO] 📦 Data dikelompokkan menjadi 2 sertifikasi
+2026-03-06 16:20:38,429 [INFO]    [1] Sertifikasi Mengetik - NAS | 2 mahasiswa, 1 dosen
+2026-03-06 16:20:38,429 [INFO]    [2] Sertifikasi Komputer - NAS | 2 mahasiswa, 1 dosen
+2026-03-06 16:20:38,429 [INFO] 
+2026-03-06 16:20:38,429 [INFO] 🔍 MODE DRY-RUN: Menampilkan payload tanpa upload
+2026-03-06 16:20:38,429 [INFO] ==================================================
+2026-03-06 16:20:38,429 [INFO] 
+--- Sertifikasi #1 ---
+2026-03-06 16:20:38,429 [INFO] {
+  "level": "NAS",
+  "nama": "Sertifikasi Mengetik",
+  "penyelenggara": "LPP NASIONAL",
+  "url_peserta": "http://www.test.com/peserta",
+  "url_sertifikat": "http://www.test.com/sertifikat",
+  "tgl_sertifikat": "2025-05-01",
+  "url_foto_upp": "http://www.test.com/foto",
+  "url_dokumen_undangan": "http://www.test.com/undangan",
+  "keterangan": "Catatan sertifikasi",
+  "mahasiswa": [
+    {
+      "nim": "51422001",
+      "nama": "Budi Santoso"
+    },
+    {
+      "nim": "51422002",
+      "nama": "Siti Aminah"
+    }
+  ],
+  "dosen": [
+    {
+      "nuptk": "511111422001",
+      "nama": "Dr. Ahmad Yani",
+      "url_surat_tugas": "http://www.dokumen.com/surat1"
+    }
+  ]
+}
+2026-03-06 16:20:38,429 [INFO] 
+--- Sertifikasi #2 ---
+2026-03-06 16:20:38,429 [INFO] {
+  "level": "NAS",
+  "nama": "Sertifikasi Komputer",
+  "penyelenggara": "LPP NASIONAL",
+  "url_peserta": "http://www.test.com/peserta2",
+  "url_sertifikat": "http://www.test.com/sertifikat2",
+  "tgl_sertifikat": "2025-06-15",
+  "url_foto_upp": "http://www.test.com/foto2",
+  "url_dokumen_undangan": "http://www.test.com/undangan2",
+  "keterangan": "Catatan komputer",
+  "mahasiswa": [
+    {
+      "nim": "51422003",
+      "nama": "Andi Wijaya"
+    },
+    {
+      "nim": "51422004",
+      "nama": "Dewi Lestari"
+    }
+  ],
+  "dosen": [
+    {
+      "nuptk": "511111422002",
+      "nama": "Prof. Siti Rahayu",
+      "url_surat_tugas": "http://www.dokumen.com/surat2"
+    }
+  ]
+}
+2026-03-06 16:20:38,429 [INFO] 
+2026-03-06 16:20:38,429 [INFO] ✅ Dry-run selesai. Tidak ada data yang diupload.
