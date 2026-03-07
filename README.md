@@ -28,7 +28,7 @@ sertifikasi_runner/
 ## Instalasi
 
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 ## Konfigurasi

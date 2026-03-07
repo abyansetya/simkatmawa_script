@@ -1,0 +1,12 @@
+# Sensitive files
+credentials.json
+config.ini
+
+# Python files
+__pycache__/
+*.pyc
+
+# Data and logs
+logs/
+*.csv
+!sample_sertifikasi.csv
