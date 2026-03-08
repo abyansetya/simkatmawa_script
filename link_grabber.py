@@ -24,7 +24,7 @@ def get_pdf_links(folder_id):
 
     files = results.get('files', [])
 
-    with open("agribisnis_2.csv", "w", newline="", encoding="utf-8") as f:
+    with open("Agribisnis_S1_(3)_2025_1.pdf.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["File Name", "Link"])
 
@@ -35,5 +35,5 @@ def get_pdf_links(folder_id):
 
 if __name__ == "__main__":
 
-    folder_id = "1ErWrYgrTApFgNc38JK7G80xVzZg7K06B"
+    folder_id = "1uJT2Dq66sH42hjrddckGAQYR-avJ2ipY"
     get_pdf_links(folder_id)
