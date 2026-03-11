@@ -21,7 +21,7 @@ BASE_URL = "https://simkatmawa.kemdiktisaintek.go.id"
 
 # --- Input IDs (Pilih salah satu) ---
 IDs_TO_EDIT = [] 
-CSV_FILE = "edit_pls.csv"
+CSV_FILE = "edit_na.csv"
 CSV_DELIMITER = ","
 ID_COLUMN_NAME = "id"
 
