@@ -16,13 +16,15 @@ Script Python untuk mengupload data sertifikasi dari file CSV ke API SIMKATMAWA 
 
 ```
 sertifikasi_runner/
-├── upload_sertifikasi.py      # Script utama
-├── config.ini                 # Konfigurasi API & kredensial
+├── auto_upload_sertifikasi.py # Script upload (Login Web)
+├── auto_bulk_edit.py         # Script edit massal (Login Web)
+├── auto_bulk_delete.py       # Script hapus massal (Login Web)
+├── auto_bulk_dosen.py       # Script edit NUPTK dosen (Login Web)
+├── upload_sertifikasi.py      # Script upload legacy (API Token)
+├── config.ini                 # Konfigurasi (Email & Password)
 ├── sample_sertifikasi.csv     # Contoh file CSV
 ├── README.md                  # Dokumentasi ini
 └── logs/                      # Folder log (otomatis dibuat)
-    ├── upload_YYYYMMDD_HHMMSS.log
-    └── result_YYYYMMDD_HHMMSS.json
 ```
 
 ## Instalasi
