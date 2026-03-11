@@ -1,3 +1,7 @@
-google-auth-oauthlib
-google-api-python-client
-requests
+# SIMKATMAWA Automation Requirements
+# Library utama untuk HTTP request dan web automation
+requests>=2.31.0
+
+# Library untuk integrasi Google Drive (opsional, untuk script upload/link)
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.115.0
